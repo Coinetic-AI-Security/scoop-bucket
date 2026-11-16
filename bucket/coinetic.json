@@ -1,5 +1,5 @@
 {
-    "version": "1.0.9816.39552",
+    "version": "1.0.9816.40274",
     "description": "Firewall and intrusion protection for Windows Servers and PCs - bans password guessers and port scanners automatically.",
     "homepage": "https://coinetic.io",
     "license": {
@@ -11,8 +11,8 @@
         "Installing through Scoop accepts the licence agreement: https://coinetic.io/eula",
         "Coinetic updates itself; uninstalling asks for a confirmation on purpose (tamper protection). Unattended removal: https://coinetic.io/deploy-coinetic"
     ],
-    "url": "https://coinetic.io/download/1.0.9816.39552/CoineticSetup.exe",
-    "hash": "625458051ccbb8ba61a5f435d7863aeea966d272ea22336a1c08526451e5298b",
+    "url": "https://coinetic.io/download/1.0.9816.40274/CoineticSetup.exe",
+    "hash": "c821c7e8b8bbc3b357155753d5e7b9b387838458558147839d002d79687fbcd6",
     "pre_install": "if (-not (is_admin)) { abort \"$app requires admin rights to $cmd (it installs a Windows service).\" }",
     "installer": {
         "script": [
